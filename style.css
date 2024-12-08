@@ -130,33 +130,43 @@ nav .menu li a:hover {
     transform: scale(1.05);
 }
 
+.container-geral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; /* Flex-start para alinhar no topo */
+    margin-top: 20px;
+}
+
 .div-info1 {
     background-color: var(--cor1);
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.462);
-    margin-bottom: 5px;
+    margin: 10px;
     padding: 10px;
+    width: calc(50% - 40px); /* Ajuste para garantir o espaço */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .div-info1 h1 {
     text-align: center;
     font-family: var(--fonte-destaque);
-    font-optical-sizing: auto;
     font-weight: 900;
-    font-style: normal;
-    font-size: 5em;
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
 .section-info {
-    width: 80%;
+    width: 100%;
     height: auto;
-    border: none;
     background-color: var(--cor2);
     padding: 10px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.49);
-    margin: auto;
 }
 
 .text-info p {
@@ -166,8 +176,8 @@ nav .menu li a:hover {
     color: var(--cor0);
     font-family: var(--fonte-paragrafos);
     font-weight: 600;
-    font-style: normal;
 }
+
 
 .produto-mae {
     margin-top: 15px;
