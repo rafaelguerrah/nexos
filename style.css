@@ -333,7 +333,6 @@ footer {
 
 @media (max-width: 992px) {
     header .social-links li span {
-
         margin-right: 5px;
     }
 
@@ -355,7 +354,7 @@ footer {
 
 @media (max-width: 768px) {
     header {
-        
+        flex-direction: column;
     }
 
     nav .menu {
@@ -378,7 +377,8 @@ footer {
     }
 
     header .social-links {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
         
     }
 
