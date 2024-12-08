@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
     <title>Primeira Pagina</title>
 </head>
 
@@ -77,7 +76,7 @@
         <div class="orcamento-mae">
             <div class="div-orcamento">
                 <h1>Orcamento</h1>
-                <form action="#">
+                <form action="email.php" method="POST">
                     <label for="nome">Nome Completo:</label>
                     <input type="text" name="inNome" id="inNome">
 
@@ -141,6 +140,8 @@
             <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
         </div>
     </footer>
+
+   
 </body>
 
 </html>
