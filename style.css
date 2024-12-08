@@ -133,7 +133,8 @@ nav .menu li a:hover {
 .container-geral {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
     margin-top: 20px;
 }
 
@@ -149,6 +150,10 @@ nav .menu li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+     .div-info1 { width: 100%;} 
 }
 
 .div-info1 h1 {
