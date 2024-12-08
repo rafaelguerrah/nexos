@@ -134,7 +134,7 @@ nav .menu li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start; /* Flex-start para alinhar no topo */
+    align-items: flex-start; 
     margin-top: 20px;
 }
 
@@ -144,7 +144,7 @@ nav .menu li a:hover {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.462);
     margin: 10px;
     padding: 10px;
-    width: calc(50% - 40px); /* Ajuste para garantir o espaço */
+    width: calc(50% - 40px); 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
