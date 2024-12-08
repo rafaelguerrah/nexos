@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';  // Servidor SMTP do Gmail
         $mail->SMTPAuth = true;
-        $mail->Username = 'softwaremachinebrasil@gamil.com'; // Seu email do Gmail
+        $mail->Username = 'softwaremachinebrasil@gmail.com'; // Seu email do Gmail
         $mail->Password = '1111030361E'; // Sua senha do Gmail
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
